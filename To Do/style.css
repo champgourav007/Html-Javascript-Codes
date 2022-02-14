@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    height: 100%;
+    margin: 0%;
+    height: 0%;
+}
+
+#leftDiv{
+    flex: 1;
+    height: 100%;
+    background: wheat;
+}
+
+#rightDiv{
+    flex: 1;
+    height: 100%;
+    background: darkgray;
+}
+
+.textbox{
+    width: 80%;
+    height: 500%;
+}
+
+.todoContainer{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+}
